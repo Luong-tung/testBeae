@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header-tilte {
+    width: 100%;
+    max-width: 1920px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fdd2df;
+    justify-content: space-around;
+}
+.header-tilte .header-tilte_text1 {
+    width: 181px;
+    height: 26px;
+    top: 7px;
+    left: 255px;
+    opacity: 70%;
+}
+.header-tilte .header-tilte_text1 p {
+    font: Open Sans;
+    font-weight: 400;
+    size: 15px;
+    line-height: 26px;
+}
+.header-tilte .header-tilte_text2 {
+    width: 386px;
+    height: 26px;
+    top: 7px;
+    left: 767px;
+    gap: 0px;
+    opacity: 0px;
+}
+.header-tilte .header-tilte_text2 p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #b30f03;
+}
+.header-tilte_icons {
+    width: Hug (133px) px;
+    height: Hug (26px) px;
+    top: 7px;
+    left: 1532px;
+    gap: 15px;
+    opacity: 0px;
+    display: flex;
+    cursor: pointer;
+}
+.header-tilte_icons span {
+    display: flex;
+    width: Hug (51px) px;
+    height: Hug (26px) px;
+    gap: 5px;
+    opacity: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-tilte_icons span p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: right;
+    color: #1a1114;
+}
+.header-tilte_icons span i {
+    font-size: 50%;
+    width: 10px;
+    height: 20px;
+    margin-top: 14px;
+    color: #1a1114;
+}
+.header-nav {
+    width: 100%;
+    height: 110px;
+    top: 40px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px 1px #cfcdcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav_nav ol {
+    width: 325px;
+    height: 26px;
+    top: 82px;
+    left: 255px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+}
+.header-nav_nav ol li {
+    list-style: none;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: bold;
+    line-height: 26px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.header-nav_nav ol .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-nav_nav ol .icon i {
+    font-size: 60%;
+    margin-left: 5px;
+    margin-top: 2px;
+    color: #1a1114;
+}
+
+.header-nav_text {
+    width: 116px;
+    height: 70px;
+    top: 55px;
+    margin-left: -180px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header-nav_text i {
+    opacity: 0;
+}
+
+.header-nav_text p {
+    font-family: Sansita;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 70px;
+    text-align: center;
+    color: #1a1114;
+}
+.header-nav_icons {
+    width: Hug (149px) px;
+    height: Hug (32px) px;
+    top: 79px;
+    left: 1516px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 80px;
+}
+.header-nav_icons i {
+    margin: 15px;
+    width: 25px;
+    height: 25px;
+    left: 55px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+/* phần thân body */
+.body-head {
+    width: 230px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 8%;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body-head .body-head_text {
+    font-family: Sansita;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+}
+.body-head_nav {
+    margin-top: 15px;
+}
+.body-head .body-head_nav ol {
+    display: flex;
+}
+.body-head .body-head_nav ol li {
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+.body-head_nav_2 {
+    color: #615f5f;
+}
+.body-content {
+    width: 84%;
+    height: 600px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.body-content_text {
+    width: 50%;
+    height: 100%;
+    background-color: #e5f8fd;
+    display: flex;
+    flex-direction: column;
+}
+.body-content_text_1 {
+    width: 106px;
+    height: 36px;
+    border-radius: 5%;
+    border: none;
+    opacity: 0px;
+    background: #f6d6df;
+    margin-top: 120px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+.body-content_text_1 p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    color: #ef6e95;
+}
+.body-content_text_2 {
+    width: 450px;
+    height: 210px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.body-content_text_2 p {
+    font-family: Sansita;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: left;
+    color: #1a1114;
+}
+.body-content-but p {
+    opacity: 0;
+}
+.body-content_text_3 {
+    margin-top: 40px;
+    margin-left: 10%;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #ec80a0;
+    cursor: pointer;
+}
+.body-content_video {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.body-content_video img {
+    width: 100%;
+    height: 100%;
+    transform: scaleX(1.2);
+}
+.body-content_video_button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.body-content_video_button i {
+    font-family: FontAwesome;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 81px;
+    color: #ec80a0;
+    cursor: pointer;
+}
+/* phần what we are proud of */
+.body_word {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.body_word p {
+    font-family: Sansita;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+}
+.flex {
+    margin: 50px 8% 0px 8%;
+    width: 84%;
+    height: 248px;
+    display: flex;
+    justify-content: space-between;
+}
+.flex .flex-att {
+    width: 24%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:
+        2px 4px 10px 1px #e8e8e8,
+        -1px -3px 5px 1px #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.flex-att_1 {
+    font-family: Sansita;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: left;
+    color: #ec80a0;
+}
+.flex-att_2 {
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+}
+.flex-att_3 {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #0a1e23;
+}
+/* phần hình ảnh */
+.picture {
+    margin: 100px 8% 0px 8%;
+    width: 84%;
+    height: 675px;
+    display: flex;
+    justify-content: space-between;
+}
+.picture-att {
+    width: 32%;
+    height: 100%;
+    background-color: #9b2323;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow:
+        2px 4px 10px 1px #e8e8e8,
+        -1px -3px 5px 1px #e8e8e8;
+}
+.picture .img1 {
+    height: 550px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.picture-att img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+.picture .img2 img {
+    transform: scaleX(1.5);
+}
+.picture .img3 {
+    height: 550px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #fdf4f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img3 .img3-text1 {
+    width: 85%;
+    height: 100px;
+    font-family: Sansita;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: #1a1114;
+}
+.img3-text2 {
+    width: 80%;
+    height: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.img3-but button {
+    background: #e76088;
+    color: white;
+    padding: 14px 30px 14px 30px;
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+}
+.picture-img4 {
+    opacity: 0;
+}
+/* phần thẻ thành viên team */
+.team {
+    height: 510px;
+    margin: 100px 8% 0px 8%;
+}
+.team .team-text {
+    font-family: Sansita;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    color: #1a1114;
+    text-align: center;
+}
+.team-nav {
+    height: 390px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-nav_att {
+    width: 24%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:
+        2px 4px 10px 1px #e8e8e8,
+        -1px -3px 5px 1px #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.team-nav_att .team-nav_att_img {
+    margin-top: 40px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.team-nav_att .team-nav_att_img img {
+    transform: scaleX(1.2);
+}
+.team-nav_att_text1 {
+    margin-top: 30px;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    color: #1a1114;
+}
+.team-nav_att_text2 {
+    margin-top: 15px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #615f5f;
+}
+.team-nav_att_text3 {
+    width: 270px;
+    margin-top: 15px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #272525;
+}
+.team-nav_att_icons {
+    margin-top: 15px;
+    width: 96px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-nav_att_icons i {
+    font-family: FontAwesome;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+/* phần gift quà tặng */
+.gift {
+    margin: 100px 8% 0px 8%;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    height: 160px;
+    width: 84%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gift .gift-att {
+    margin-left: 5%;
+    width: 309px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gift .gift-att .gift-att_icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #e76088;
+    position: relative;
+}
+
+.gift .gift-att .gift-att_icon i {
+    position: absolute;
+    transform: rotate(1turn);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: FontAwesome;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: left;
+    color: #e76088;
+}
+
+.gift .gift-att .gift-att_text {
+    width: 229px;
+    height: 67px;
+}
+.gift-att_text_1 {
+    margin-top: 8px;
+    font-family: Sansita;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+}
+.gift-att_text_2 {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #615f5f;
+}
+/* PHẦN THANH TÌM KIẾM */
+.search {
+    width: 84%;
+    height: 150px;
+    margin: 100px 8% 0px 8%;
+    border-bottom: 1px solid #e4e3e3;
+    display: flex;
+    justify-content: space-between;
+}
+.search-title {
+    font-family: Sansita;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 70px;
+}
+.search-main_text {
+    width: 206px;
+    height: 44px;
+}
+.search-main {
+    display: flex;
+    height: 50px;
+}
+.search-main_text p {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+.search-container {
+    float: right;
+    border-radius: 10px;
+
+    border: 1px solid #e76088;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.search-container button {
+    float: right;
+
+    width: 166px;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+    background: #e76088;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    color: white;
+}
+/* phần footer */
+footer {
+    width: 84%;
+    height: 370px;
+    margin: 100px 8% 0px 8%;
+    border-bottom: 1px solid #c4c3c3;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    margin: 10% 0 10% 0;
+}
+.footer-att {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 24%;
+    height: 100%;
+}
+.footer-att span {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.footer-att_1 {
+    height: 31px;
+    font-family: Sansita;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+}
+.footer-att span i {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.line {
+    margin-top: 30px;
+    width: 100%;
+    height: 2px;
+    background-color: #c4c3c3;
+    opacity: 0;
+}
+.footer-text {
+    width: 80%;
+    margin-top: 50px;
+
+    text-align: center;
+    transform: translateX(10%);
+}
+.footer-text p {
+    margin-bottom: 50px;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
